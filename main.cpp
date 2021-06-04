@@ -33,13 +33,16 @@ main ( int argc, char *argv[] )
 	int vira_vira;
 	int i;
 	initscr();
-	
+	printw("Nós estamos bebados. Bebados de cair...\n");
+	printw("Todos que não estiberem bebados...");
+	printw("Deem o fora daqui!\n\n");
+
 	for ( i = 0; i < 10; i += 1 ) {
-	
 	vira_vira = vira_vira_roleta(1, 10);
 	virou = virou_roleta(vira_vira);
-	
-	printw("%s", virou);
+
+	move(10, 10);		
+	printw("\t%s", virou);
 	refresh(); 
 	getch();
 	clrtoeol();
