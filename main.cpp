@@ -34,7 +34,7 @@ main ( int argc, char *argv[] )
 	int i;
 	initscr();
 	printw("Nós estamos bebados. Bebados de cair...\n");
-	printw("Todos que não estiberem bebados...");
+	printw("Todos que não estiverem bebados...");
 	printw("Deem o fora daqui!\n\n");
 
 	for ( i = 0; i < 10; i += 1 ) {
